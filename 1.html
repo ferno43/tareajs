@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Primer ejercicio</title>
+  <script src="1.js"></script>
+</head>
+  <body>
+    <p id="tiempo"></p>
+    <p id="imagen"></p>
+    <p id="hora"></p>
+    <p id="prueba"></p>
+    <script>
+    var d=new Date();
+    var n=d.getHours();
+    document.getElementById("tiempo").innerHTML = d;
+    var elem = document.createElement("img");
+    document.getElementById("imagen").appendChild(elem);
+    document.getElementById("prueba").innerHTML = "holaaa";
+
+    if(n>=5 && n<=12){
+
+      elem.src = "imagen1.jpg";
+      document.getElementById("hora").innerHTML = "Mañana";
+    }else if(n>12 && n<=7){
+      elem.src = "imagen2.jpg";
+      document.getElementById("hora").innerHTML = "Tarde";
+    }else if (n>17 && n<=21) {
+      elem.src = "imagen3.jpg";
+      document.getElementById("hora").innerHTML = "Noche";
+    }else{
+      elem.src = "imagen4.jpg";
+      document.getElementById("hora").innerHTML = "Madrugada";
+    }</script>
+
+    <p><a href="2.html">Tarea 2</a></p>
+    <p><a href="3.html">Tarea 3</a></p>
+    <p><a href="4.html">Tarea 4</a></p>
+    <p><a href="5.html">Tarea 5</a></p>
+    <p><a href="6.html">Tarea 6</a></p>
+  </body>
+</html>
