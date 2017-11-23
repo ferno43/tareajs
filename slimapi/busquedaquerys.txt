@@ -1,0 +1,8 @@
+query 1.- http://localhost/slimapi/public/query1
+query 2.- http://localhost/slimapi/public/query2/3
+query 3.- http://localhost/slimapi/public/query3/1
+query 4.- http://localhost/slimapi/public/query4/1
+query 5.- http://localhost/slimapi/public/query5/1
+query 6.- http://localhost/slimapi/public/query6
+query 7.- http://localhost/slimapi/public/query7/11
+query 8.- http://localhost/slimapi/public/query8/9
